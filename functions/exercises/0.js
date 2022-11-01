@@ -1,7 +1,8 @@
 const { check, runTest } = require("../../test-api");
 
-function double() {
   // return any number doubled
+  function double(num) {
+    return num*2
 }
 
 runTest("double() can double any number", function () {
